@@ -62,7 +62,7 @@ function changeTestimonial() {
   const stars = generateStars(usersTrstimonials[currentTestimonial].starts);
   userStarsEl.innerHTML = stars.join("");
 }
-
+ 
 //go to next testimonial
 nextBtn.addEventListener("click", () => {
   currentTestimonial ++;
